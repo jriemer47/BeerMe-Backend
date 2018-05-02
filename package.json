@@ -1,0 +1,33 @@
+{
+  "name": "BeerMe-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --exit",
+    "knex": "knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlcorsini/BeerMe-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlcorsini/BeerMe-Backend/issues"
+  },
+  "homepage": "https://github.com/carlcorsini/BeerMe-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "mocha": "^5.1.1",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1"
+  }
+}

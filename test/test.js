@@ -1,7 +1,8 @@
 require('dotenv').load();
 const chai = require('chai');
 const expect = chai.expect;
-const beer = require('../src/models/beer');
+// const beer = require('../src/models/beer');
+const beer = require('../lib/instances/userService');
 const config = require('../knexfile').test;
 chai.use(require('chai-as-promised'));
 
@@ -26,7 +27,7 @@ describe('Beer Me', function() {
 
   describe('#getAllUsers()', function() {
     it('should return a list of all the users in the database', function() {
-      return beer.getAllUsers().then(result => {
+      return beer.getAll().then(result => {
         expect(result.length).to.equal(6);
 
         const user = result[0];

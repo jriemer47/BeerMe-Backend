@@ -9,8 +9,8 @@ const UnauthorizedError = require('express-jwt/lib/errors/UnauthorizedError');
 
 const server = express();
 
-// const itemsRouter = require('./lib/instances/itemsRouter');
-const usersRouter = require('./lib/instances/usersRouter');
+const beersRouter = require('./lib/instances/beerInstances/beersRouter');
+const usersRouter = require('./lib/instances/userInstances/usersRouter');
 // const favoritesRouter = require('./lib/instances/favoritesRouter');
 // const ordersRouter = require('./lib/instances/ordersRouter');
 // const tokenRouter = require('./lib/instances/tokenRouter');
@@ -36,7 +36,7 @@ server.use((req, res, next) => {
 });
 
 server.use(express.static(__dirname + '/public'));
-// server.use(itemsRouter);
+server.use(beersRouter);
 server.use(usersRouter);
 // server.use(favoritesRouter);
 // server.use(ordersRouter);

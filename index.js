@@ -11,6 +11,8 @@ const server = express();
 
 const beersRouter = require('./lib/instances/beerInstances/beersRouter');
 const usersRouter = require('./lib/instances/userInstances/usersRouter');
+const breweriesRouter = require('./lib/instances/breweryInstances/breweriesRouter');
+
 // const favoritesRouter = require('./lib/instances/favoritesRouter');
 // const ordersRouter = require('./lib/instances/ordersRouter');
 // const tokenRouter = require('./lib/instances/tokenRouter');
@@ -38,6 +40,7 @@ server.use((req, res, next) => {
 server.use(express.static(__dirname + '/public'));
 server.use(beersRouter);
 server.use(usersRouter);
+server.use(breweriesRouter);
 // server.use(favoritesRouter);
 // server.use(ordersRouter);
 // server.use(tokenRouter);

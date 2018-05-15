@@ -13,7 +13,7 @@ const beersRouter = require('./lib/instances/beerInstances/beersRouter');
 const usersRouter = require('./lib/instances/userInstances/usersRouter');
 // const favoritesRouter = require('./lib/instances/favoritesRouter');
 // const ordersRouter = require('./lib/instances/ordersRouter');
-// const tokenRouter = require('./lib/instances/tokenRouter');
+const tokenRouter = require('./lib/instances/tokenInstances/tokenRouter');
 
 server.use(bodyParser.json());
 server.use(cors());
@@ -40,7 +40,7 @@ server.use(beersRouter);
 server.use(usersRouter);
 // server.use(favoritesRouter);
 // server.use(ordersRouter);
-// server.use(tokenRouter);
+server.use(tokenRouter);
 
 server.all('*', (req, res, next) => res.sendStatus(404));
 

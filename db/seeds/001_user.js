@@ -11,7 +11,8 @@ exports.seed = function(knex, Promise) {
           last_name: 'Corsini',
           username: 'beerlover69',
           email: 'carl.c.1192@gmail.com',
-          hashedPassword: 'yahoo',
+          hashedPassword:
+            '$2b$10$hjBmT2NQAtV6Qq.ul4E7JOFOU6NGJC76tKlNw4S7Nz30xJUjrpSzS',
           profile_pic:
             'https://avatars2.githubusercontent.com/u/28901454?s=460&v=4',
           location: 'San Francisco, CA',

@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
     table.text('style').notNullable();
     table.decimal('abv').notNullable();
     table.decimal('ibu').defaultTo(undefined);
+    table.string('beer_label').notNullable();
     table.timestamps(true, true);
   });
 };

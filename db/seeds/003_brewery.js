@@ -8,6 +8,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 1,
           brewery_name: 'Russian River Brewing Company',
+          brewery_logo:
+            'https://i0.wp.com/beerstreetjournal.com/wp-content/uploads/Russian-River-Logo1.png',
           address: '725 4th St',
           city: 'Santa Rosa',
           state: 'CA',
@@ -18,6 +20,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 2,
           brewery_name: '21st Amendment Brewery',
+          brewery_logo:
+            'https://static1.squarespace.com/static/510a02e0e4b0086d33c3c797/t/552c7766e4b005f6ac4eeffc/1428977513009/',
           address: '563 2nd St',
           city: 'San Francisco',
           state: 'CA',
@@ -28,6 +32,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 3,
           brewery_name: 'Anchor Brewing Company',
+          brewery_logo:
+            'https://pbs.twimg.com/profile_images/837042309912879104/OUOlDYjU.jpg',
           address: '1705 Mariposa St,',
           city: 'San Francisco',
           state: 'CA',
@@ -38,6 +44,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 4,
           brewery_name: 'Fieldwork Brewing Company',
+          brewery_logo:
+            'http://beerpulse.com/wp-content/uploads/2016/05/Fieldwork-Brewing-logo-BeerPulse.jpg',
           address: '1160 6th St',
           city: 'Berkeley',
           state: 'CA',
@@ -48,6 +56,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 5,
           brewery_name: 'HenHouse Brewing Company',
+          brewery_logo:
+            'http://sonoma-figgirl.com/wp-content/uploads/2016/04/HENHOUSE.jpg',
           address: '322 Bellevue Ave',
           city: 'Santa Rosa',
           state: 'CA',
@@ -58,6 +68,8 @@ exports.seed = function(knex, Promise) {
         {
           id: 6,
           brewery_name: 'Lagunitas Brewing Company',
+          brewery_logo:
+            'https://images2.porchdrinking.com/2018/02/LagunitasCCBW2.jpg',
           address: '1280 N McDowell Blvd',
           city: 'Petaluma',
           state: 'CA',

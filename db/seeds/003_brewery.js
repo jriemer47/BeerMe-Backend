@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
           id: 2,
           brewery_name: '21st Amendment Brewery',
           brewery_logo:
-            'https://static1.squarespace.com/static/510a02e0e4b0086d33c3c797/t/552c7766e4b005f6ac4eeffc/1428977513009/',
+            'http://beerpulse.com/wp-content/uploads/2011/09/21st-amendment-brewery-logo.jpg',
           address: '563 2nd St',
           city: 'San Francisco',
           state: 'CA',
@@ -76,6 +76,66 @@ exports.seed = function(knex, Promise) {
           zip: 94954,
           phone: '(707) 769-4495',
           url: 'https://lagunitas.com/'
+        },
+        {
+          id: 7,
+          brewery_name: 'Almanac Beer Co.',
+          brewery_logo:
+            'https://www.coldist.com/wp-content/uploads/2016/07/Almanac.jpg',
+          address: '2704 24th St',
+          city: 'San Francisco',
+          state: 'CA',
+          zip: 94110,
+          phone: '(415) 932-6531',
+          url: 'https://www.almanacbeer.com/'
+        },
+        {
+          id: 8,
+          brewery_name: 'Barebottle Brewery Company',
+          brewery_logo:
+            'https://www.orchestratedbeer.com/wp-content/uploads/Barebottle-logo.jpg',
+          address: '1525 Cortland Ave',
+          city: 'San Francisco',
+          state: 'CA',
+          zip: 94110,
+          phone: '(415) 926-8617',
+          url: 'http://www.barebottle.com/'
+        },
+        {
+          id: 9,
+          brewery_name: 'Drakes Brewing Co.',
+          brewery_logo:
+            'https://cdn.shopify.com/s/files/1/0889/8644/products/XwYV0WgjRlNRQW5yBHxg_Drakes_20Logo_20D_201c_20172_20_1_grande.png?v=1491242989',
+          address: '1933 Davis St',
+          city: 'San Leandro',
+          state: 'CA',
+          zip: 94577,
+          phone: '(510) 568-23739',
+          url: 'https://drinkdrakes.com/'
+        },
+        {
+          id: 10,
+          brewery_name: 'Fort Point Beer Co.',
+          brewery_logo:
+            'http://discussions.probrewer.com/attachment.php?attachmentid=54894&d=1511377805',
+          address: '1 The Embarcadero',
+          city: 'San Francisco',
+          state: 'CA',
+          zip: 94105,
+          phone: '(415) 906-4021',
+          url: 'https://www.fortpointbeer.com/'
+        },
+        {
+          id: 11,
+          brewery_name: 'Speakeasy Ales & Lagers',
+          brewery_logo:
+            'http://tailgaterssportsbars.com/images/beer%20icons/speakeasy.jpg',
+          address: '1195 Evans Ave',
+          city: 'San Francisco',
+          state: 'CA',
+          zip: 94124,
+          phone: '(415) 642-3371',
+          url: 'https://www.goodbeer.com/'
         }
       ]);
     })

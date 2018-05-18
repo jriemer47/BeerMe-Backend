@@ -24,7 +24,8 @@ exports.seed = function(knex, Promise) {
           last_name: 'Riemer',
           username: 'jonbeersly',
           email: 'jriemer@gmail.com',
-          hashedPassword: 'meowmix',
+          hashedPassword:
+            '$2b$10$XHKm7JBcdYyawcgCr3xyP.RUXaFaLV9TQhkvSWGi58Wj4/9GH4guy',
           profile_pic:
             'https://avatars2.githubusercontent.com/u/23747060?s=460&v=4',
           location: 'San Francisco, CA',

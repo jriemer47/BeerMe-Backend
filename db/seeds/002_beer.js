@@ -184,6 +184,94 @@ exports.seed = function(knex, Promise) {
           ibu: null,
           beer_label:
             'https://barleydine.files.wordpress.com/2011/04/consecration.jpg'
+        },
+        {
+          id: 21,
+          beer_name: 'Summer in the City',
+          style: 'American Wild Ale',
+          abv: 6.6,
+          ibu: null,
+          beer_label:
+            'https://tenemu.com/wp-content/uploads/2015/11/Almanac-Summer-in-the-City-Feature.jpg'
+        },
+        {
+          id: 22,
+          beer_name: 'Pineapple Shakes IPA',
+          style: 'Milkshake IPA',
+          abv: 6.7,
+          ibu: null,
+          beer_label:
+            'https://static1.squarespace.com/static/581a2d252994ca082120e432/t/5ada731203ce64f4b42d6c8e/1526068121737/20180419-IMG_9687.jpg'
+        },
+        {
+          id: 23,
+          beer_name: '1500 Dry Hopped Pale Ale',
+          style: 'American Pale Ale',
+          abv: 5.5,
+          ibu: 48,
+          beer_label:
+            'https://i1.wp.com/www.beersifter.com/wp-content/uploads/2017/01/DSC08578.jpg?fit=800%2C624'
+        },
+        {
+          id: 24,
+          beer_name: 'KSA',
+          style: 'Kolsch',
+          abv: 4.6,
+          ibu: 17,
+          beer_label:
+            'https://i.pinimg.com/originals/54/1c/d4/541cd40e0718c61f063d8c856bab7dcb.jpg'
+        },
+        {
+          id: 25,
+          beer_name: 'Prohibition Ale',
+          style: 'American Amber Ale',
+          abv: 6.1,
+          ibu: 50,
+          beer_label:
+            'https://www.mercurynews.com/wp-content/uploads/2017/03/sjm-speakeasy-03101.jpg?w=528'
+        },
+        {
+          id: 26,
+          beer_name: 'White Label',
+          style: 'American Wild Ale',
+          abv: 7.5,
+          ibu: null,
+          beer_label:
+            'https://images2.porchdrinking.com/2018/02/Optimized-DSC_0979-2-e1490668365730.jpg'
+        },
+        {
+          id: 27,
+          beer_name: 'Unicorn Dust',
+          style: 'American IPA',
+          abv: 6.5,
+          ibu: null,
+          beer_label: 'https://images2.porchdrinking.com/2018/02/IMG_0479.jpg'
+        },
+        {
+          id: 28,
+          beer_name: 'Drakonic',
+          style: 'Stout - American Imperial/Double',
+          abv: 9,
+          ibu: 40,
+          beer_label:
+            'https://i.pinimg.com/474x/80/7e/1e/807e1eaf73b020ba2270aeecd47fc300--brewing-company-drake.jpg'
+        },
+        {
+          id: 29,
+          beer_name: 'Westfalia',
+          style: 'Red Ale',
+          abv: 5.6,
+          ibu: 16,
+          beer_label:
+            'https://i1.wp.com/www.beersifter.com/wp-content/uploads/2017/01/DSC08621.jpg?fit=800%2C624'
+        },
+        {
+          id: 30,
+          beer_name: 'Pop Gun',
+          style: 'German Pilsner',
+          abv: 4.7,
+          ibu: 32,
+          beer_label: 'https://www.goodbeer.com/s/Pop-Gun-Print.jpg'
         }
       ]);
     })

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test mocha --exit",
     "knex": "knex",
-    "start": "npm start"
+    "start": "npm start index.js"
   },
   "repository": {
     "type": "git",

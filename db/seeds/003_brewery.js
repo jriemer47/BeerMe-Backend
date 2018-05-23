@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
           id: 2,
           brewery_name: '21st Amendment Brewery',
           brewery_logo:
-            'http://beerpulse.com/wp-content/uploads/2011/09/21st-amendment-brewery-logo.jpg',
+            'https://static1.squarespace.com/static/510a02e0e4b0086d33c3c797/t/552c7766e4b005f6ac4eeffc/1428977513009/',
           address: '563 2nd St',
           city: 'San Francisco',
           state: 'CA',

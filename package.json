@@ -2,10 +2,11 @@
   "name": "BeerMe-Backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --exit",
-    "knex": "knex"
+    "knex": "knex",
+    "start": "npm start"
   },
   "repository": {
     "type": "git",

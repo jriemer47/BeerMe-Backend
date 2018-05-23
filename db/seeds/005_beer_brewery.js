@@ -154,6 +154,61 @@ exports.seed = function(knex, Promise) {
           id: 30,
           brewery_id: 11,
           beer_id: 30
+        },
+        {
+          id: 31,
+          brewery_id: 2,
+          beer_id: 31
+        },
+        {
+          id: 32,
+          brewery_id: 2,
+          beer_id: 32
+        },
+        {
+          id: 33,
+          brewery_id: 2,
+          beer_id: 33
+        },
+        {
+          id: 34,
+          brewery_id: 2,
+          beer_id: 34
+        },
+        {
+          id: 35,
+          brewery_id: 2,
+          beer_id: 35
+        },
+        {
+          id: 36,
+          brewery_id: 2,
+          beer_id: 36
+        },
+        {
+          id: 37,
+          brewery_id: 2,
+          beer_id: 37
+        },
+        {
+          id: 38,
+          brewery_id: 2,
+          beer_id: 38
+        },
+        {
+          id: 39,
+          brewery_id: 2,
+          beer_id: 39
+        },
+        {
+          id: 40,
+          brewery_id: 2,
+          beer_id: 40
+        },
+        {
+          id: 41,
+          brewery_id: 2,
+          beer_id: 41
         }
       ]);
     })

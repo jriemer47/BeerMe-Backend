@@ -8,8 +8,8 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = {
   DEBUG: 1,
   PGHOST: process.env.PGHOST,
-  // PGUSER: process.env.PGUSER,
-  // PGPASSWORD: process.env.PGPASSWORD,
+  PGUSER: process.env.PGUSER,
+  PGPASSWORD: process.env.PGPASSWORD,
   PGDATABASE: process.env.PGDATABASE,
   JWT_KEY: process.env.JWT_KEY
 };

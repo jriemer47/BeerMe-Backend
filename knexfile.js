@@ -2,7 +2,7 @@ const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD } = require('./env');
 
 module.exports = {
   [process.env.NODE_ENV]: {
-    client: 'postgres',
+    client: 'pg',
     connection: {
       host: PGHOST,
       database: PGDATABASE
